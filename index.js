@@ -8,4 +8,8 @@ class Driver{
     this.id = ++driverId
     store.drivers.push(this)
   }
+trips() {
+  return store.trips.filter(trip => {
+    return trip.driverID == this.id
+  })
 }
