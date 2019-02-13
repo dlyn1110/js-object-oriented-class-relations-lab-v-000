@@ -19,3 +19,4 @@ trips() {
      return trip.passenger
    })
  }
+ }
